@@ -1,0 +1,26 @@
+$navBgColor : #051c33;
+$navColor : #ffffff;
+
+.main-navigation {
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 10px;
+        width: 130px;
+    }
+
+    a {
+        display: block;
+        background: $navBgColor;
+        border-radius: 3px;
+        padding: 5px;
+        color: $navColor;
+        text-decoration: none;
+    }
+    
+}
